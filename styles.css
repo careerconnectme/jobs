@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.job-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    /* Increased width */
+    max-width: 800px;
+    /* More space for content */
+}
+
+.job-image {
+    width: 100%;
+    /* Full width of the container */
+    height: auto;
+    /* Maintain natural height */
+    display: block;
+    margin: 0 auto 20px;
+    /* Centered with spacing below */
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+p,
+ul {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    /* Align text for better readability */
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    /* Indent bullet points */
+}
+
+.referral-info {
+    background: #fce8e6;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d9534f;
+    margin: 20px 0;
+}
+
+.apply-button {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.apply-button:hover {
+    background: #0056b3;
+}
